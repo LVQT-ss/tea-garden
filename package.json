@@ -1,0 +1,15 @@
+{
+  "name": "tea-garden-monorepo",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev:frontend": "pnpm --filter frontend dev",
+    "build:frontend": "pnpm --filter frontend build",
+    "dev:backend": "pnpm --filter backend start:dev",
+    "dev:admin": "pnpm --filter admin dev"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
